@@ -3,6 +3,7 @@
 @font-face { font-family: "Barlow Semi Condensed"; font-weight: 400; font-display: swap; src: url(fonts/barlow-semi-condensed-latin-400-normal.woff2) format("woff2"); }
 @font-face { font-family: "Barlow Semi Condensed"; font-weight: 500; font-display: swap; src: url(fonts/barlow-semi-condensed-latin-500-normal.woff2) format("woff2"); }
 @font-face { font-family: "Gochi Hand"; font-weight: 400; font-display: swap; src: url(fonts/gochi-hand-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Inkfree"; font-weight: 400; font-display: swap; src: url(fonts/Inkefree.ttf) format("ttf"); }
 
 :root {
   --pink: #F2D9EF;
@@ -48,10 +49,12 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .hero__word { position: relative; font-size: clamp(84px, 17vw, 250px); }
 .hero__title { font-size: 1em; }
 .hero__tag {
+  font-family: 'Inkfree';
   position: absolute; margin: 0; font: 400 .095em/1 var(--hand); color: var(--purple-soft);
   right: -.66em; top: -.4em; transform: rotate(6deg); transform-origin: left; white-space: nowrap; animation: fade 1s .6s both;
 }
 .hero__name {
+  font-family: 'Inkfree';
   position: absolute; margin: 0; font: 400 .26em/1 var(--hand); letter-spacing: .03em;
   left: -.22em; bottom: -.6em; transform: rotate(-2deg); animation: fade 1s .35s both;
 }
