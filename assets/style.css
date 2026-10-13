@@ -3,7 +3,7 @@
 @font-face { font-family: "Barlow Semi Condensed"; font-weight: 400; font-display: swap; src: url(fonts/barlow-semi-condensed-latin-400-normal.woff2) format("woff2"); }
 @font-face { font-family: "Barlow Semi Condensed"; font-weight: 500; font-display: swap; src: url(fonts/barlow-semi-condensed-latin-500-normal.woff2) format("woff2"); }
 @font-face { font-family: "Gochi Hand"; font-weight: 400; font-display: swap; src: url(fonts/gochi-hand-latin-400-normal.woff2) format("woff2"); }
-@font-face { font-family: "Inkfree"; font-weight: 400; font-display: swap; src: url(fonts/Inkefree.ttf) format("ttf"); }
+@font-face { font-family: "Inkfree"; font-weight: 400; font-display: swap; src: url(fonts/Inkefree.ttf) format("truetype"); }
 
 :root {
   --pink: #F2D9EF;
